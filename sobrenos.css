@@ -1,0 +1,52 @@
+#container_sn{
+	position: relative;
+	background-color: #869bc9;
+	height: 35em;
+	width: 80%;
+	top: 8em;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2em;
+	padding: 1em;
+	
+}
+#b{
+	position: absolute;
+	margin-top: 9em;
+	text-align: center;
+	border: 1.25em solid rgb(47, 255, 186);
+	width: 8.375em;
+	height: 3.2em;
+	font-size: 1.375em;
+	margin-left: 1.1em;
+	background-color: rgb(60, 33, 218);
+	border-image: url(marco2.png);
+	border-image-slice: 25%;
+	border-image-repeat: repeat round;
+	border-image-width: 1.25em;
+	border-image-outset: 0.625em;
+	font-family: Lobster, cursive;
+	font-size: 1.4em;
+	color: #fff;
+}
+
+.cont2_sn{
+	margin-top: -0.2em;
+	position: absolute;
+	margin-left: 19em;
+	color: #fff;
+	border-radius: 6em;
+	padding: 2em;
+	right: 2em;
+	background-color: #548af0;
+}
+
+.cont2_sn h4{
+	font-family: Lobster, cursive;
+	font-size: 1.5em;
+}
+
+.cont2_sn h3{
+	font-family: Lobster, cursive;
+	font-size: 1.8em;
+}

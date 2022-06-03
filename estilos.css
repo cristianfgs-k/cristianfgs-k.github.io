@@ -1,0 +1,253 @@
+/*
+ Aqui se Pone El fondo de pantalla
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background-image: url(fonodofintrop.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+
+/*
+Aqui empieza el diseño del logo
+*/
+
+
+#div_logo{
+position: relative;
+}
+
+#logo_img{
+	position: absolute;
+	top: .2em;
+	left: : .2em;
+	height: 3.75em;
+	width: 7.5em;
+}
+
+
+/*
+Aqui Empieza el diseño del Menu
+*/
+
+
+
+#div_header{
+	margin: auto;
+	width: 50em;
+	font-family:'Assistant', sans-serif ; 
+	font-size: 1.05em;
+	margin-top: 0.225em; 
+	z-index: 1;
+	position: absolute;
+	left: 50%;
+	margin-left: -15.625em;
+}
+
+ul , ol{
+	list-style: none;
+}
+
+.nav li a{
+	background-color: #72b4e0;
+	color: #FFF;
+	text-decoration: none;
+	padding: 0.8em 1em;
+	display: block;
+	font-family: Sansita Swashed , cursive;
+
+}
+.nav li a:hover{
+	background-color:#90bee4;
+}
+.nav > li{
+	float: left;
+}
+ .nav li ul{
+ 	display:none;
+ 	position: absolute;
+ 	min-width: 12.5em;
+ 	font-size: .85em !important;
+ }
+ .nav li:hover > ul {
+ 	display: block;
+ }
+ .nav li ul li {
+ 	position:relative;
+ }
+  .nav li ul li ul{
+  		position: absolute;
+  		right: -12.85em;
+  		top: 0em;
+  }
+
+
+
+
+/*
+Aqui Empieza el diseño del Slide
+*/
+
+
+.container_slider{
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+	overflow: hidden;  
+	box-shadow: 0 0 0 10px #fff,
+				0 15px 50px;
+	position: relative;
+	top: 8em;
+}
+
+.slider{
+	display: flex;
+	height: 400px;
+	width: 400%;
+	margin-left: -100%;
+}
+
+.slider_section{
+	width: 100%;
+}
+
+.slider_img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.slider_btn{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: rgba(107, 179, 247, 0.5);
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%);
+	font-size: 30px;
+	font-weight: bold;
+	font-family: monospace;
+	text-align: center;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.slider_btn:hover {
+background: #fff;
+}
+
+.slider_btn--right{
+right: -15px;
+}
+
+.slider_btn--left{
+left: 25px;
+}
+
+
+
+/*
+Aqui Empieza el diseño del Pie de Pagina
+*/
+
+div#pie_f{
+	position: relative;
+	top: 85em;
+	height:15.625em;
+	background-color:#06080c;
+	overflow: hidden;
+}
+
+div#pie{
+	position: relative;
+	top: 40em;
+	height:15.625em;
+	background-color:#14253f;
+	overflow: hidden;
+}
+
+div#pie_cont{
+	float: left;
+	margin-top: 1.2875em;
+	margin-left: 5.625em;
+}
+p.pie_cont_g{
+	font-family: Sansita Swashed, cursive;
+	font-size: 1.45em;
+	color: #2285be;
+}
+p.pie_cont_ch{
+	font-family: Kranky, cursive;
+	font-size: 1.15em;
+	color: #fff;
+}
+
+
+div#pie_horario{
+	float: left;
+	margin-top: 2.322em;
+	margin-left: 11.625em;
+}
+
+div#pie_horario p{
+	font-family: Kranky, cursive;
+	font-size: 1.15em;
+	color: #fff;
+}
+
+p#pie_horario_g{
+	font-size: 1.45em !important;
+	color: #14668f !important;
+}
+
+
+div#pie_avisos{
+	float: left;
+	margin-top: 2.1875em;
+	margin-left: 10.625em;
+}
+div#pie_avisos p{
+	font-size: 1.45em;
+	color: #ffffff;
+}
+
+
+div#pie2{
+	position: relative;
+	top: 40em;
+	height:4.375em;
+	background-color:#62bfeb;
+	overflow: hidden;
+}
+
+div#pie2_f{
+	position: relative;
+	top: 85em;
+	height:4.375em;
+	background-color:#57abe2;
+	overflow: hidden;
+}
+
+div#pie2_logo{
+	float: left;
+	margin-top: 0.5em;
+	margin-left: 0.9375em;
+}
+div#pie2_nombre{
+	float: right;
+	margin-top: 1.25em;
+	margin-right: 1.5625em;
+	color: #fff;
+	font-size: 1.65em;
+}
+
+
+

@@ -1,0 +1,104 @@
+.pez_img{
+	position: absolute;
+	top: 23%;
+	left: 1.2em;
+	width: 450px;
+	height: 320px;
+}
+
+#flecha_img_izq{
+	position: absolute;
+	right: .3em;
+	top: -.1em;
+	width: 4.5em;
+	height: 3.5em;
+}
+
+
+
+
+/*
+Diseño de los Contenedores
+*/
+
+#container_fish{
+	 box-shadow: 0 0 20px 0 rgba(154, 187, 226, 0.3);
+	position: relative;
+	width: 80%;
+	background-color: #38653c;
+	height: 54em;
+	margin-left: auto;
+	margin-right: auto;
+	top: 10em;
+
+
+}
+
+#name_fish{
+	position: absolute;
+	width: 100%;
+	height: 3em;
+	background-color: rgb(40, 54, 80);+
+	
+	
+}
+#name_fish p{
+	font-family: 'Lobster', cursive;
+	color:#fff;
+ 	font-size: 2em;
+ 	text-align: center;
+}
+
+
+/*Titulo*/
+
+
+
+#photo_fish{
+	position: absolute;
+	top: 3em;
+	width: 45%;
+	height: 51em;
+	background-color: rgb(12, 12, 10);
+	background-color: #96b7e9;
+}
+
+/*Foto del pez*/
+
+#content_fish{
+	position: absolute;
+	top: 3em;
+	width: 55%;
+	right: 0em;
+	height: 51em;
+	background-color: rgb(163, 163, 233);
+	background-color: #86a0e6;
+}
+
+#content_fish h2,h3{
+	margin-top: .5em;
+	margin-left: 1.3em;
+}
+
+#content_fish p{
+	margin-top: .3em;
+	margin-left: .8em;
+/*	font-family: 'Dancing Script', cursive;
+	font-family: 'Poppins', sans-serif; */
+	font-family: 'Volkhov', serif;
+	font-size: 1.3em;
+
+}
+
+#content_fish h2{
+	font-family: 'Volkhov', serif;
+	color: #ebebeb;
+
+}
+
+#content_fish h3{
+	font-family: 'Volkhov', serif;
+	color: #ebebeb;
+}
+/*Especificaciones del pez*/
+
